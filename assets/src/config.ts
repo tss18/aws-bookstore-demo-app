@@ -1,3 +1,4 @@
+// Teagan King 1365396
 export default {
   apiGateway: {
     REGION: "us-east-1",

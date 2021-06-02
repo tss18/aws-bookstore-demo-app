@@ -1,5 +1,5 @@
 import React from "react";
-import { FormGroup, FormControl, ControlLabel, Form, FormControlProps } from "react-bootstrap";
+import { FormGroup, FormControl, ControlLabel, Form } from "react-bootstrap"; //FormControlProps
 
 import "./checkoutForm.css";
 import supportedCards from "../../../images/supportedCards.png";
