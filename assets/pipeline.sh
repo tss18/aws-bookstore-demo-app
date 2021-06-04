@@ -7,11 +7,11 @@ if [ $(python3 commentchecker.py ) = 1 ]; then
 fi
 echo "comment check passed"
 
-#npm install
+npm install
 npm run build
-cd src/_tests_
-jest
-cd ../../../
+# cd src/_tests_
+# npm run test
+# cd ../../../
 git add .
 git commit -m $1
 git push origin master
